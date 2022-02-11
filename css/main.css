@@ -57,7 +57,9 @@ header{
     justify-content: space-between;
 }
 /* ------------------------------------------------------ */
-
+.section-1{
+    margin-top: 130px;
+}
 .photo-me img{
     max-width: 430px;
 }
@@ -65,7 +67,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 130px;
 }
 .lorem{
     max-width: 300px;
