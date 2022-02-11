@@ -57,8 +57,9 @@ header{
     justify-content: space-between;
 }
 /* ------------------------------------------------------ */
+/* SECTION-1 */
 .section-1{
-    margin-top: 130px;
+    padding-top: 130px;
 }
 .photo-me img{
     max-width: 430px;
@@ -80,3 +81,5 @@ header{
 .skills-point{
     padding-left: 20px;
 }
+/* --------------------- */
+/* section-2 */
