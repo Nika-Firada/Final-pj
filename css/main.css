@@ -15,6 +15,7 @@ header{
     max-width: 1920px;
     max-height: 620px;
     position: relative;
+    margin-bottom: 130px;
 }
 .header-cover{
     background-image: url(../my-pics/pp.jpg);
@@ -58,9 +59,6 @@ header{
 }
 /* ------------------------------------------------------ */
 /* SECTION-1 */
-.section-1{
-    padding-top: 130px;
-}
 .photo-me img{
     max-width: 430px;
 }
@@ -83,3 +81,27 @@ header{
 }
 /* --------------------- */
 /* section-2 */
+.section-2{
+    background-color: #131A36;
+    margin-top: 100px;
+}
+.addres{
+    margin: 0 40px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+.phone2,
+.addres2,
+.email2{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-left: 15px;
+}
+.add-info p{
+    margin: 10px;
+}
