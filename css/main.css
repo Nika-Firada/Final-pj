@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/* HEADER */
+header{
+    color: white;
+}
+.header-container{
+    max-width: 1920px;
+    max-height: 620px;
+    position: relative;
+}
+.header-cover{
+    background-image: url(../my-pics/pp.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+.logo-about{
+    padding: 20px;
+}
+
+.description{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+.description h2{
+    margin-bottom: 10px;
+}
+.decription-logos{
+    margin-top: 10px;
+}
+.decription-logos a{
+    margin-right: 5px;
+    text-decoration: none;
+}
+.statifish{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+.name{
+    margin-bottom: 10px;
+}
+.logo-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ------------------------------------------------------ */
+
+.photo-me img{
+    max-width: 430px;
+}
+.about-me-mini{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+.lorem{
+    max-width: 300px;
+}
+.mini-desc{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    align-items: flex-end;
+}
+.skills-point{
+    padding-left: 20px;
+}
