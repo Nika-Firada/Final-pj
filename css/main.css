@@ -1,64 +1,132 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.container{
-    max-width: 1920px;
-    margin: 0 auto;
+ol, ul {
+	list-style: none;
+    
 }
-/* HEADER */
-header{
-    color: white;
-}
-.header-container{
-    max-width: 1920px;
-    max-height: 620px;
-    position: relative;
-    margin-bottom: 130px;
-}
-.header-cover{
-    background-image: url(../my-pics/pp.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    height: 100vh;
-    position: relative;
-}
-.logo-about{
-    padding: 20px;
-}
-
-.description{
-    position: absolute;
-    top: 40%;
-    left: 65%;
-}
-.description h2{
-    margin-bottom: 10px;
-}
-.decription-logos{
-    margin-top: 10px;
-}
-.decription-logos a{
-    margin-right: 5px;
+a {
     text-decoration: none;
 }
-.statifish{
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
+body {
+    overflow-x: hidden;
 }
-.name{
-    margin-bottom: 10px;
-}
-.logo-about{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
 }
 /* ------------------------------------------------------ */
+/* HEADER */
+.big-header{
+    background-color: #DDDDDD;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-content{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.header-logo{
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 40px;
+}
+.header-logo span{
+    color: #0081FF;
+}
+.header-logo-text{
+    color: #B3B3B3;
+    font-size: 13px;
+    font-family: "Montserrat";
+}
+.about-text{
+    padding-top: 40px;
+    position: relative;
+    padding-right: 20px;
+}
+.about-2{
+    position: absolute;
+    color: #373737;
+    font-size: 30px;
+    font-family: "Poppins";
+    top: 50%;
+}
+.about-1{
+    font-size: 150px;
+    color: #1C1C1C;
+    font-weight: 900;
+}
+.header-slider-info{
+    font-family: "Glacial Indifference";
+}
+.header-info-hello{
+    font-size: 45px;
+    color: #212121;
+}
+.header-info-name{
+    color: #212121;
+    font-size: 70px;
+    font-weight: bold;
+}
+.header-info-descr{
+    color: #212121;
+    font-size: 23px;
+
+}
+.header-social{
+    margin-top: 80px;
+}
+.header-social a{
+    margin-right: 8px;
+}
+.header-slider-img{
+    display: none;
+}
+.header-lider-imgs{
+    margin-right: 25px;
+}
+.header-slider-img.active{
+    display: block;
+}
+.header-slider{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.header-slider-img img{
+    width: 90%;
+    max-width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+.header-slider-img{
+    height: 500px;
+    width: 500px;
+}
+.client-statis-wrap{
+    font-size: 24px;
+    font-family: "Montserrat";
+    color: #212121;
+}
+.red-static{
+    color: #E93656;
+}
+.client-statis{
+    padding-top: 150px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
 /* SECTION-1 */
+.section-1{
+    padding-top: 130px;
+}
 .photo-me img{
     max-width: 430px;
 }
@@ -67,29 +135,136 @@ header{
     align-items: center;
     justify-content: center;
 }
-.lorem{
-    max-width: 300px;
-}
 .mini-desc{
     display: flex;
     flex-direction: column;
-    padding-right: 20px;
+    margin-right: 50px;
     align-items: flex-end;
 }
-.skills-point{
-    padding-left: 20px;
+.m-job{
+    font-family: muli, sans-serif;
 }
+.hire-me{
+    background-color: #E93656;
+    margin-top: 60px;
+    font-family: "Glacial Indifference";
+}
+.hire-me p{
+    cursor: pointer;
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.hire-me2{
+    background-color: #E93656;
+    margin-top: 60px;
+    display: none;
+}
+.hire-me2 p{
+    cursor: pointer;
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.skills-bar{
+    margin-left: 50px;
+    width: 310px;
+    padding: 5px;
+    font-family: "Glacial Indifference";
+}
+.skills-bar p {
+    margin-top: 20px;
+}
+.skills-bar p span {
+    color: #E93656;
+}
+.mini-desc h2{
+    color: #222222;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.m-job{
+    color: #DAAE19;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.lorem{
+    max-width: 300px;
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.4rem;
+    font-family: "Muli";
+}
+.my-social{
+    display: flex;
+    margin-top: 70px;
+}
+.my-social-items{
+    margin-right: 5px;
+    background-color: #F9F9F9;
+    border: 1px solid #DDDDDD;
+    transition: all 0.3s ease;
+    height: 50px;
+    width: 50px;
+}
+.my-fa{
+    padding: 14px;
+    color: #131A36;
+    transition: all 0.3s ease;
+}
+.my-social-items:hover{
+    background-color: #131A36;
+}
+.my-social-items:hover .fa{
+    color: #fff;
+}
+.progress{
+    width: 310px;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.progress .progress-bar{
+    width: 0%;
+    opacity: 0;
+    height: 100%;
+    background-color: #E93656;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.5s;
+}
+.progress-bar span{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 /* --------------------- */
 /* section-2 */
 .section-2{
     background-color: #131A36;
     margin-top: 100px;
+    font-family: "Glacial Indifference";
+    
+}
+.sec-2-info-head{
+    font-size: 25px;
+}
+.sec-2-info-body{
+    font-size: 14px;
+    font-family: "Muli";
 }
 .addres{
     margin: 0 40px;
 }
 .info{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 60px 0;
@@ -105,3 +280,477 @@ header{
 .add-info p{
     margin: 10px;
 }
+/* ----------------- sercices*/
+.section-3{
+    margin-top: 150px;
+}
+.services-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services-wrapper{
+    display: block;
+}
+.service-item{
+    border: 1px solid lightgray;
+    display: flex;
+    width: 290px;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.visible-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.visible-content img{
+    margin-bottom: 15px;
+}
+.invisible-content{
+    display: none;
+}
+.invisible-content h3{
+    margin-bottom: 15px;
+}
+.service-item:hover{
+    background-color: #131A36;
+}
+.service-item:hover .visible-content{
+    display: none;
+}
+.service-item:hover .invisible-content{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    line-height: 1.7rem;
+}
+.visible-content p{
+    font-size: 20px;
+    font-family: "Glacial Indifference";
+
+}
+.invisible-content h3{
+    font-family: "Glacial Indifference";
+    font-size: 20px;
+}
+.invisible-content p{
+    font-family: "Muli";
+    font-size: 14px;
+}
+/* -------------- slider*/
+.slider{
+    margin-top: 140px;
+    background-image: url(../images/clip.jpg);
+}
+.slider-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-content{
+    padding: 200px;
+    color: #fff;
+}
+.client-descr{
+    max-width: 490px;
+    margin-right: 30px;
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+}
+.client{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sl{
+    display: none;
+}
+.client-img{
+    border: 1px dashed #fff;
+    border-radius: 100%;
+    margin-right: 40px;
+}
+.job-type{
+    color: #E93656;
+    margin-bottom: 10px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 13px;
+}
+.client-name{
+    font-size: 28px;
+    font-family: "Glacial Indifference";
+    font-weight: bold;
+
+}
+.client-img img{
+    max-width: 180px;
+    max-height: 150px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.active{
+    display: block;
+}
+.slide-dots{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.dot.active{
+    border: 1px solid #E93656;
+}
+.client-descr{
+    font-size: 15px;
+    font-family: "Roboto";
+    line-height: 1.4rem;
+}
+/* projects */
+.latest-project{
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lt-proj-h3{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Glacial Indifference";
+
+}
+.lt-proj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+.latest-project-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.categories{
+    background-color: #131A36;
+    color: #fff;
+    max-height: 400px;
+    max-width: 240px;
+    margin-right: 30px;
+    font-family: "Glacial Indifference";
+
+}
+.categories-ul{
+    padding: 50px 60px;
+}
+.categories-ul li{
+    margin-bottom: 30px;
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+.categories-ul li:hover{
+    color: #E93656;
+}
+.work{
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    /* border: 1px solid #131A36; */
+}
+.works{
+    display: block;
+}
+.work-img{
+    width: 310px;
+    height: 350px;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+.after-hover-div img{
+    max-width: 50px;
+    max-height: 50px;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 12px;
+}
+.after-hover-div{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    font-family: "Glacial Indifference";
+}
+.proj-name{
+    font-size: 18px;
+}
+.work:hover .work-img{
+    opacity: .3;
+}
+.work:hover .after-hover-div{
+    opacity: 1;
+    color: #fff;
+}
+.black-bg{
+    background-color: black;
+}
+
+/* rosa section */
+.rosa-team-section{
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+.rosa-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rosa-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    transition: all 0.5s ease;
+
+}
+.rosa-invisible{
+    display: none;
+    transition: all 0.5s ease;
+
+}
+.rosa-invisible p{
+    max-width: 145px;
+    transition: all 0.5s ease;
+
+}
+.rosa-decript{
+    margin-right: 100px;
+    transition: all 0.5s ease;
+}
+.rosa-decript:hover .rosa-visible{
+    display: none;
+    transition: all 0.5s ease;
+
+}
+.rosa-decript:hover .rosa-invisible{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #E93656;
+    padding: 30px;
+    transition: all 0.5s ease;
+
+}
+/* latest-articles */
+.latest-articles{
+    margin-top: 170px;
+}
+.latest-articles-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.latest-articles-head p{
+    color: #2ED279;
+    font-size: 13px;
+    font-family: "Glacial Indifference";
+}
+.latest-articles-head h2{
+    font-size: 70px;
+    color: #2E2E2E;
+    font-family: "Glacial Indifference";
+}
+.first-article{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+.grid-reversed :first-child{
+    order: 2;
+}
+.article-main-img{
+    max-width: 950px;
+    max-height: 590px;
+}
+.padding-right{
+    padding-right: 60px;
+}
+.text-area{
+    max-width: 800px;
+    padding-left: 60px;
+}
+.article-descr{
+    max-width: 560px;
+    padding-bottom: 100px;
+    font-size: 16px;
+    color: #494949;
+    font-family: 'Muli';
+}
+.text-area-h3{
+    color: #161616;
+    font-size: 40px;
+    font-family: "Glacial Indifference";
+    margin-bottom: 28px;
+}
+.text-area-p{
+    color: #888888;
+    font-size: 14px;
+    font-family: "Muli";
+}
+/* contact */
+.contact-bg{
+    background-image: url(../images/map.png);
+    background-size: cover;
+    position: relative;
+}
+.contact-bg:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+}
+.contact-text{
+    position: relative;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    margin-bottom: 45px;
+}
+.contact-text h2{
+    margin-bottom: 10px;
+    font-family: "Jaapokki";
+    font-size: 45px;
+}
+.contact-text p{
+    font-family: "Roboto";
+    font-size: 17px;
+}
+.form-class{
+    position: relative;
+}
+.three-little-field{
+    display: flex;
+    justify-content: center;
+}
+.big-field{
+    display: flex;
+    justify-content: center;
+}
+.email-field{
+    margin: 0 10px;
+}
+.form-sizes{
+    width: 290px;
+    height: 50px;
+}
+.form-sizes input{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+.message-field{
+    width: 890px;
+    height: 110px;
+    margin-top: 10px;
+}
+.message-field input{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+.send{
+    position: relative;
+    margin-top: 30px;
+    color: #E93656;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.send button{
+    border: 1px solid #E93656;
+    padding: 16px 46px;
+    cursor: pointer;
+    background: none;
+    color: #E93656;
+}
+/* FOOTER */
+.footer{
+    background-color: #282828;
+}
+.footer-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.footer-fa{
+    color: #00BEC5;
+    margin-right: 10px;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding-top: 110px;
+}
+.f-logo{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-weight: 900;
+}
+.f-logo span{
+    color: #E93656;
+}
+.f-descr{
+    font-size: 17px;
+    margin-top: 20px;
+    max-width: 600px;
+    margin-bottom: 30px;
+    font-family: "Roboto";
+}
+.footer-second-floor{
+    background-color: #171717;
+}
+.second-content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #A0A8B7;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Muli';
+}
+.second-content p span{
+    color: #F9F9F9;
+}
+
+
+

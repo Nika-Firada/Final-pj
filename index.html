@@ -4,78 +4,145 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="container">
-        <div class="header-container">
-            <div class="header-cover">
-                <div class="header-context">
-                    <div class="logo-about">
-                        <div class="logo">LOGO</div>
-                        <div>ABOUT ME</div>
+    <header class="big-header">
+        <div class="header-wrap container">
+            <div class="logo-content">
+                <p class="header-logo">Roca<span>.</span></p>
+                <p class="header-logo-text">Resume Template</p>
+            </div>
+            <div class="about-text">
+                <p class="about-1">01</p>
+                <p class="about-2">about me</p>
+            </div>
+        </div>
+        <div class="header-slider-wrapper container">
+            <div class="header-slider">
+                <div class="header-lider-imgs">
+                    <div class="header-slider-img active">
+                        <img src="my-pics/me-a.jpg" alt="#">
                     </div>
-                    <div class="description">
-                        <h2>Hello I'm</h2>
-                        <p class="name">Nika Piradashvili</p>
-                        <p>I am Web Designer @ Company.com</p>
-                        <div class="decription-logos">
-                            <a href="#">
-                                <img src="images/facebook.png" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="images/google+.png" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="images/twitter.png" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="images/youtube.png" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="images/rss.png" alt="">
-                            </a>
-                        </div>
+                    <div class="header-slider-img">
+                        <img src="my-pics/me-b.jpg" alt="#">
+                    </div>
+                    <div class="header-slider-img">
+                        <img src="my-pics/me-c.jpg" alt="#">
                     </div>
                 </div>
-                <div class="statifish">
-                    <p>100% Satisfied Clients</p>
+                <div class="header-slider-info-wrap">
+                    <div class="header-slider-info">
+                        <p class="header-info-hello">Hi, I’ Am</p>
+                        <p class="header-info-name">Nika Piradashvili</p>
+                        <p class="header-info-descr">I am Web Designer @ Company.com</p>
+                    </div>
+                    <div class="header-social">
+                        <a href="">
+                            <img src="images/facebook.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/twitter.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/google+.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/youtube.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="images/rss.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="client-statis">
+                <div class="client-statis-wrap">
+                    <p><span class="red-static">100%</span> Satisfied Clients</p>
+                    <div>---------------------------------</div>
                 </div>
             </div>
         </div>
     </header>
-    <section class="section-1 container">
-        <div class="about-me-mini">
+    <section class="section-1" id="skills-section">
+        <div class="about-me-mini container">
             <div class="mini-desc">
                 <h2>Nika Piradashvili</h2>
-                <p>WEB DEVELOPER</p>
+                <p class="m-job">WEB DEVELOPER</p>
                 <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipi elit. Sunt sed ad possimus magm maiores.Ipa Lorem ipsum dolor sit amet, consectetur adiic Sunt sed ad posimus magnam maores. Ipsam as velt blanditiis debitis consequuntur mollita umenda nam obcaecati illo!</p>
-                <a href="#">Hire Me</a>
+                <div class="hire-me">
+                    <p>Hire Me</p>
+                </div>
             </div>
             <div class="photo-me">
                 <img src="my-pics/my-pic.jpg" alt="me">
             </div>
-            <div class="skills-point">
-                <p>dedsadas</p>
-                <p>dedsadas</p>
-                <p>dedsadas</p>
-                <p>dedsadas</p>
-                <p>dedsadas</p>
-
+            <div class="skills-bar" id="skills-bar-id">
+                <p>Design <span>( 80% )</span></p>
+                <div class="progress">
+                    <div class="progress-bar" data-progress="80">
+                        <span></span>
+                    </div>
+                </div>
+                <p>Photography<span>( 65% )</span></p>
+                <div class="progress">
+                    <div class="progress-bar" data-progress="65">
+                        <span></span>
+                    </div>
+                </div>
+                <p>Marking <span>( 50% )</span></p>
+                <div class="progress">
+                    <div class="progress-bar" data-progress="50">
+                        <span></span>
+                    </div>
+                </div>
+                <p>Photoshop <span>( 30% )</span></p>
+                <div class="progress">
+                    <div class="progress-bar" data-progress="30">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="hire-me2">
+                    <p>Hire Me</p>
+                </div>
+                <div class="my-social">
+                    <div class="my-social-items">
+                        <a href="mailto:nika.Firada@gmail.com">
+                            <i class="fa fa-google-plus my-fa" style="font-size:20px"></i>
+                        </a>
+                    </div>
+                    <div class="my-social-items">
+                        <a href="https://www.linkedin.com/in/nika-piradashvili-9b5109231/" target="_blank">
+                            <i class="fa fa-linkedin my-fa" style="font-size:20px"></i>
+                        </a>
+                    </div>
+                    <div class="my-social-items">
+                        <a href="https://www.facebook.com/profile.php?id=100008047237702" target="_blank">
+                            <i class="fa fa-facebook my-fa" style="font-size:20px"></i>
+                        </a>
+                    </div>
+                    <div class="my-social-items">
+                        <a href="https://github.com/Nika-Firada" target="_blank">
+                            <i class="fa fa-github-square my-fa" style="font-size:20px"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section class="section-2 container">
-        <div class="info">
+    <section class="section-2">
+        <div class="info container">
             <div class="phone2">
                 <div>
                     <img src="images/phone.svg" alt="#">
                 </div>
                 <div class="add-info">
-                    <p>Phone Number</p>
-                    <p>+995 551 111 058</p>
+                    <p class="sec-2-info-head">Phone Number</p>
+                    <p class="sec-2-info-body">+995 551 111 058</p>
                 </div>
             </div>
             <div class="addres2">
@@ -83,9 +150,9 @@
                     <img src="images/address.svg" alt="">
                 </div>
                 <div class="add-info">
-                    <p>Addres</p>
-                    <p>Rustavi</p>
-                    <p>Leonidze Ave.</p>
+                    <p class="sec-2-info-head">Addres</p>
+                    <p class="sec-2-info-body">Rustavi</p>
+                    <p class="sec-2-info-body">Leonidze Ave.</p>
                 </div>
             </div>
             <div class="email2">
@@ -93,67 +160,420 @@
                     <img src="images/email.svg" alt="">
                 </div>
                 <div class="add-info">
-                    <p>Email addres</p>
-                    <p>nika.firada@gmail.com</p>
+                    <p class="sec-2-info-head">Email addres</p>
+                    <p class="sec-2-info-body">nika.firada@gmail.com</p>
                 </div>
             </div>
             <div class="email"></div>
         </div>
     </section>
-    <section class="section-3 container">
-        <div class="services">
-            <div class="grapic-design">
-                <div>
-                    <img src="" alt="#">
-                    <p></p>
+    <section class="section-3 ">
+        <div class="services-flex container">
+            <div class="services-wrapper">
+                <div class="service-item">
+                    <div class="visible-content">
+                        <img src="images/design.svg" alt="#">
+                        <p>Grapic Design</p>
+                    </div>
+                    <div class="invisible-content">
+                        <h3>Graphichs Design</h3>
+                        <p>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
+                    </div>
                 </div>
-            </div>
-            <div class="best-service">
-                <div>
-                    <img src="" alt="#">
-                    <p></p>
+                <div class="service-item">
+                    <div class="visible-content">
+                        <img src="images/service.svg" alt="#">
+                        <p>Best Service</p>
+                    </div>
+                    <div class="invisible-content">
+                        <h3>Best Service</h3>
+                        <p>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
+                    </div>
                 </div>
-            </div>
-            <div class="best-service-2">
-                <div>
-                    <img src="" alt="#">
-                    <p></p>
+                <div class="service-item">
+                    <div class="visible-content">
+                        <img src="images/pixel.svg" alt="#">
+                        <p>Pixel Perfect</p>
+                    </div>
+                    <div class="invisible-content">
+                        <h3>Pixel Perfect</h3>
+                        <p>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
+                    </div>
                 </div>
-            </div>
-            <div class="pixel-perfect">
-                <div>
-                    <img src="" alt="#">
-                    <p></p>
+                <div class="service-item">
+                    <div class="visible-content">
+                        <img src="images/ideas.svg" alt="#">
+                        <p>Unique Ideas</p>
+                    </div>
+                    <div class="invisible-content">
+                        <h3>Unique Ideas</h3>
+                        <p>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
+                    </div>
                 </div>
-            </div>
-            <div class="uniq-ideas">
-                <div>
-                    <img src="" alt="#">
-                    <p></p>
+                <div class="service-item">
+                    <div class="visible-content">
+                        <img src="images/analysis.svg" alt="#">
+                        <p>Design Analysis</p>
+                    </div>
+                    <div class="invisible-content">
+                        <h3>Design Analysis</h3>
+                        <p>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
+                    </div>
                 </div>
-            </div>
-            <div class="design-analis">
-                <div>
-                    <img src="" alt="#">
-                    <p></p>
+                <div class="service-item">
+                    <div class="visible-content">
+                        <img src="images/chart.svg" alt="#">
+                        <p>Fully Managed</p>
+                    </div>
+                    <div class="invisible-content">
+                        <h3>Fully Managed</h3>
+                        <p>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
+                    </div>
                 </div>
-            </div>
-            <div class="fully-managed">
-                <div>
-                    <img src="" alt="#">
-                    <p></p>
+                <div class="service-item">
+                    <div class="visible-content">
+                        <img src="images/design.svg" alt="#">
+                        <p>Grapic Design</p>
+                    </div>
+                    <div class="invisible-content">
+                        <h3>Graphichs Design</h3>
+                        <p>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
+                    </div>
                 </div>
-            </div>
-            <div class="helpful-support">
-                <div>
-                    <img src="" alt="#">
-                    <p></p>
+                <div class="service-item">
+                    <div class="visible-content">
+                        <img src="images/support.svg" alt="#">
+                        <p>Helpful Support</p>
+                    </div>
+                    <div class="invisible-content">
+                        <h3>Helpful Support</h3>
+                        <p>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores.Ipsa dolor</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-
+    <section class="slider">
+        <div class="slider-wrapper container">
+            <div class="slider-content">
+                <div class="sl active">
+                    <div class="client">
+                        <div class="client-descr">
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore..</p>
+                        </div>
+                        <div class="client-img">
+                            <img src="images/client-1.jpg" alt="#">
+                        </div>
+                        <div class="client-info">
+                            <p class="job-type">Graphic Designer</p>
+                            <p class="client-name">Mau Thomas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sl">
+                    <div class="client">
+                        <div class="client-descr">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, fuga quis! Iure minus quos eius ullam obcaecati quae assumenda sit alias rem cum ipsam maiores, voluptates eum sed amet odit.</p>
+                        </div>
+                        <div class="client-img">
+                            <img src="images/client-2.jfif" alt="#">
+                        </div>
+                        <div class="client-info">
+                            <p class="job-type">HR Manager</p>
+                            <p class="client-name">Mike Jordan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sl">
+                    <div class="client">
+                        <div class="client-descr">
+                            <p>Iusto mollitia voluptate consectetur voluptatum quo deserunt praesentium sit, voluptas voluptates unde sunt necessitatibus minus quos repudiandae assumenda perspiciatis incidunt? Atque, quae dignissimos.</p>
+                        </div>
+                        <div class="client-img">
+                            <img src="images/client-3.jfif" alt="#">
+                        </div>
+                        <div class="client-info">
+                            <p class="job-type">UI/UX Designer</p>
+                            <p class="client-name">John Tompson</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+    <section class="latest-project">
+        <div class="main-latest-project-wrapper container">
+            <div class="lt-proj">
+                <h3 class="lt-proj-h3">Latest Projects</h3>
+            </div>
+            <div class="latest-project-wrapper">
+                <div class="categories">
+                    <ul class="categories-ul">
+                        <li data-filter="all">All</li>
+                        <li data-filter="work-ideas">Work ideas</li>
+                        <li data-filter="mockup">Mockup</li>
+                        <li data-filter="psd">PSD Design</li>
+                        <li data-filter="logo">Logo</li>
+                        <li data-filter="present">Presentation</li>
+                        <li data-filter="icons">Icons</li>
+                    </ul>
+                </div>
+                <div class="works">
+                    <div class="work" data-category="work-ideas">
+                        <div class="black-bg">
+                            <img class="work-img" src="images/work-idea.png" alt="#">
+                        </div>
+                        <div class="after-hover-div">
+                            <div class="black-bg">
+                                <img src="images/heart.svg" alt="">
+                            </div>
+                            <span>9 Monts Ago</span>
+                            <span class="proj-name">Project Name</span>
+                        </div>
+                    </div>
+                    <div class="work" data-category="mockup">
+                        <div class="black-bg">
+                            <img class="work-img" src="images/mockup.jfif" alt="#">
+                        </div>
+                        <div class="after-hover-div">
+                            <img src="images/heart.svg" alt="">
+                            <span>9 Monts Ago</span>
+                            <span class="proj-name">Project Name</span>
+                        </div>
+                    </div>
+                    <div class="work" data-category="psd">
+                        <div class="black-bg">
+                            <img class="work-img" src="images/psd.jfif" alt="#">
+                        </div>
+                        <div class="after-hover-div">
+                            <img src="images/heart.svg" alt="">
+                            <span>9 Monts Ago</span>
+                            <span class="proj-name">Project Name</span>
+                        </div>
+                    </div>
+                    <div class="work" data-category="logo">
+                        <div class="black-bg">
+                            <img class="work-img" src="images/logo-design.jpg" alt="#">
+                        </div>
+                        <div class="after-hover-div">
+                            <img src="images/heart.svg" alt="">
+                            <span>9 Monts Ago</span>
+                            <span class="proj-name">Project Name</span>
+                        </div>
+                    </div>
+                    <div class="work" data-category="present">
+                        <div class="black-bg">
+                            <img class="work-img" src="images/present.jpg" alt="#">
+                        </div>
+                        <div class="after-hover-div">
+                            <img src="images/heart.svg" alt="">
+                            <span>9 Monts Ago</span>
+                            <span class="proj-name">Project Name</span>
+                        </div>
+                    </div>
+                    <div class="work" data-category="icons">
+                        <div class="black-bg">
+                            <img class="work-img" src="images/icons-design.jpg" alt="#">
+                        </div>
+                        <div class="after-hover-div">
+                            <img src="images/heart.svg" alt="">
+                            <span>9 Monts Ago</span>
+                            <span class="proj-name">Project Name</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="latest-articles">
+        <div class="latest-articles-wrapper container">
+            <div class="latest-articles-head">
+                <p>NEWS & EVENT</p>
+                <h2>Latest Articles</h2>
+            </div>
+            <div class="latest-articles-items">
+                <div class="first-article">
+                    <div class="text-area padding-right">
+                        <div class="text-area-img">
+                            <img src="my-pics/Icon1.svg" alt="#">
+                        </div>
+                        <p class="text-area-p">IN FREELANCING COMPANY</p>
+                        <h3 class="text-area-h3">Graphic Designer</h3>
+                        <p class="article-descr">
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. READ MORE
+                        </p>
+                    </div>
+                    <img class="article-main-img" src="my-pics/BANNER-ARTIGOS-BLOGS-TWIST-1024x355.jpg" alt="#">
+                </div>
+                <div class="first-article reverse">
+                    <img class="article-main-img" src="my-pics/BANNER-ARTIGOS-BLOGS-TWIST-1024x355.jpg" alt="#">
+                    <div class="text-area">
+                        <div class="text-area-img">
+                            <img src="my-pics/Icon3.svg" alt="#">
+                        </div>
+                        <p class="text-area-p">IN FREELANCING COMPANY</p>
+                        <h3 class="text-area-h3">Application Design</h3>
+                        <p class="article-descr">
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. READ MORE
+                        </p>
+                    </div>
+                </div>
+                <div class="first-article">
+                    <div class="text-area padding-right">
+                        <div class="text-area-img">
+                            <img src="my-pics/Icon2.svg" alt="#">
+                        </div>
+                        <p class="text-area-p">IN FREELANCING COMPANY</p>
+                        <h3 class="text-area-h3">Personal Adviser</h3>
+                        <p class="article-descr">
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. READ MORE
+                        </p>
+                    </div>
+                    <img class="article-main-img" src="my-pics/BANNER-ARTIGOS-BLOGS-TWIST-1024x355.jpg" alt="#">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rosa-team-section">
+        <div class="rosa-team-wrapper container">
+            <div class="rosa-head">
+                <p>NEWS & EVENT</p>
+                <h2>Rosa Team</h2>
+            </div>
+            <div class="rosa-body">
+                <div class="rosa-decript">
+                    <div class="rosa-visible">
+                        <img src="images/company-logo-1.png" alt="">
+                    </div>
+                    <div class="rosa-invisible">
+                        <p>CLIENT 2</p>
+                        <p>Lorm ipm dolr amt consect. Ipsa dolor sit magnam maores.</p>
+                    </div>
+                </div>
+                <div class="rosa-decript">
+                    <div class="rosa-visible">
+                        <img src="images/comp-logo2.png" alt="">
+                    </div>
+                    <div class="rosa-invisible">
+                        <p>CLIENT 2</p>
+                        <p>Lorm ipm dolr amt consect. Ipsa dolor sit magnam maores.</p>
+                    </div>
+                </div>
+                <div class="rosa-decript">
+                    <div class="rosa-visible">
+                        <img src="images/comp-logo3.png" alt="">
+                    </div>
+                    <div class="rosa-invisible">
+                        <p>CLIENT 2</p>
+                        <p>Lorm ipm dolr amt consect. Ipsa dolor sit magnam maores.</p>
+                    </div>
+                </div>
+                <div class="rosa-decript">
+                    <div class="rosa-visible">
+                        <img src="images/comp-logo4.png" alt="">
+                    </div>
+                    <div class="rosa-invisible">
+                        <p>CLIENT 2</p>
+                        <p>Lorm ipm dolr amt consect. Ipsa dolor sit magnam maores.</p>
+                    </div>
+                </div>
+                <div class="rosa-decript">
+                    <div class="rosa-visible">
+                        <img src="images/company-logo-1.png" alt="">
+                    </div>
+                    <div class="rosa-invisible">
+                        <p>CLIENT 2</p>
+                        <p>Lorm ipm dolr amt consect. Ipsa dolor sit magnam maores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact-wrapper container">
+            <div class="contact-bg">
+                <div class="contact-text">
+                    <h2>CONTACT US</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+                <form id="form_id" class="form-class" action="users-" action="users-" method="post" novalidate>
+                    <div class="form-field">
+                        <div class="three-little-field">
+                            <div class="name-field form-sizes">
+                                <input id="user_name" type="text" placeholder="Your Name*" required minlength="3">
+                            </div>
+                            <div class="email-field form-sizes">
+                                <input id="user_email" type="email" placeholder="Your Email*" required>
+                            </div>
+                            <div class="name-field form-sizes">
+                                <input id="user_website" type="text" placeholder="Your Website*" required minlength="3">
+                            </div>
+                        </div>
+                        <div class="big-field">
+                            <div class="message-field">
+                                <input id="user_message" type="text" placeholder="Message*" required minlength="5" maxlength="500">
+                            </div>
+                        </div>
+                        <div class="send">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-wrapper container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <p class="f-logo">ROCA<span>.</span></p>
+                    <p class="f-descr">Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
+                </div>
+                <div class="footer-social">
+                    <div class="footer-social-item">
+                        <a href="#">
+                            <i class="fa fa-facebook footer-fa"></i>
+                        </a>
+                    </div>
+                    <div class="footer-social-item">
+                        <a href="#">
+                            <i class="fa fa-twitter footer-fa"></i>
+                        </a>
+                    </div>
+                    <div class="footer-social-item">
+                        <a href="#">
+                            <i class="fa fa-google-plus footer-fa"></i>
+                        </a>
+                    </div>
+                    <div class="footer-social-item">
+                        <a href="#">
+                            <i class="fa fa-behance footer-fa"></i>
+                        </a>
+                    </div>
+                    <div class="footer-social-item">
+                        <a href="#">
+                            <i class="fa fa-pinterest footer-fa"></i>
+                        </a>
+                    </div>
+                    <div class="footer-social-item">
+                        <a href="#">
+                            <i class="fa fa-instagram footer-fa"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-second-floor">
+                <div class="second-content">
+                    <p>© All right reserved 2019. <span>Rosa</span> - Creative Agency Website PSD Template.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="js/main.js"></script>
 </body>
 </html>
